@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-color: gray;
+}
+
+/* Seleção por id (começa com #) */
+#titulo-home {
+    color: chartreuse;
+}
+
+a[href="./index.html"]{
+    color: aqua;
+}
+
+/* Seleção por classe (começa com .) */
+/* .item_menu {
+    display: inline;
+} */
+
+/* Seleção com combinador > */
+.menu > li {
+/* #menu > li { */
+    display: inline;
+}
+
+.menu a:hover{
+    color: yellow;
+}
